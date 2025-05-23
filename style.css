@@ -23,7 +23,7 @@ body {
   width: 100vw;
 
   &.green {
-    background-color: darkgreen;
+    background-color: green;
   }
   &.red {
     background-color: red;
@@ -38,9 +38,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1em;
 
   img {
-    height: 100px;
+    height: 150px;
   }
 }
 
