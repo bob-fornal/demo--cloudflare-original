@@ -1,0 +1,57 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #cccccc;
+  color: #dddddd;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  [data-phonenumber] {
+    font-size: 0.75em;
+  }
+
+  margin: 0;
+  padding: 0;
+
+  height: 300px;
+  width: 100vw;
+
+  &.green {
+    background-color: darkgreen;
+  }
+  &.red {
+    background-color: red;
+  }
+  &.blue {
+    background-color: blue;
+  }
+}
+
+.image-display {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 100px;
+  }
+}
+
+.functionality {
+  background-color: aliceblue;
+  padding: 1em 10em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}

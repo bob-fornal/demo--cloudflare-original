@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <script defer src="/_vercel/insights/script.js"></script> -->
+
+    <title>Test HTML Space</title>
+    <meta name="description" content="Test template to allow for Cloudflare Worker Script Testing." />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/beer.ico">
+  </head>
+  <body>
+    <div class="image-display">
+      <img data-image src="/images/logo--green.webp" alt="Hi, Bob!" />
+    </div>
+    <h1 data-header class="header green">
+      <div data-header-text>
+        <span>Testing:</span> &nbsp;
+        <span data-header-location>Test HTML Space</span>
+      </div>
+      <div>
+        <a data-phonenumber href="tel:+18008675309">(800) 867-5309</a>
+      </div>
+    </h1>
+    <div class="functionality">
+      <ul>
+        <li><a href="/">CLEAR</a></li>
+        <li><a href="/?location=BOB%20FORNAL">CHANGE LOCATION: /?location=BOB FORNAL</a></li>
+        <li><a href="/?header=BOB%20RULES">CHANGE WHOLE HEADER: /?header=BOB RULES</a></li>
+        <li><a href="/?image=/images/logo-green.webp">CHANGE IMG SRC: /?image=/images/logo-green.webp</a></li>
+        <li><a href="/?theme=header%20red">CHANGE THEME: /?theme=header red</a></li>
+        <li><a href="/?theme=header%20green">CHANGE THEME: /?theme=header green</a></li>
+        <li><a href="/?theme=header%20blue">CHANGE THEME: /?theme=header blue</a></li>
+        <li><a href="/?map_phone=bob">CHANGE PHONE NUMBER: /?map_phone=bob</a></li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <a type="phone" data-phonenumber href="tel:+18008675309">(800) 867-5309</a>
+    </div>
+  </body>
+</html>
